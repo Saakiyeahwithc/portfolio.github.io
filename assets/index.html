@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saakiyeah's Portfolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/aos.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="navbarNav">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+            <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+                <span class="h3 fw bold d-block d-lg-none">Saakiyeah</span>
+                <img src="images/FB_IMG_16326595601683431.jpg" class="d-none d-lg-block rounded-circle" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms auto alex-lg-column text-lg-center">
+                    <div class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#qualificatons">Qualifications</a>
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                        <a class="nav-link" href="#about">About</a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar-->
+
+    <!--Content Wrapper-->
+    <div id="content-wrapper">
+        <!--Home-->
+        <section id="Home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="display fw-bold">
+                            HI, I'm A
+                            <span class="text-brand"><span id="element">FRONTEND WEBDEV</span></span>
+                            <br>FROM DHARAN, NEPAL.
+                            <p class="lead mt-2 mb-4 ">
+                                I am Prashant Shakya. Web developer trying to embrace my skills in the
+                                sector of Web development.
+                            </p>
+                        </h1>
+                        <a href="#services" class="btn btn-brand mx-3">Explore my work</a>
+                        <a href="#" class="link-custom fw-light">Call: (977) 9804097207</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Home-->
+        <!--SERVICES-->
+        <section id="services" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row px-4">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">Services</h6>
+                        <h1>Services that I provide.</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="services p-3 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-feather"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Branding</h5>
+                            <p>
+                                Not worked on any projects yet.
+                            </p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="projects p-3 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-desktop"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Web Designing</h5>
+                            <p>
+                                Not worked on any projects yet.
+                            </p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="services p-3 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-mobile"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">UI/UX</h5>
+                            <p>
+                                Not worked on any projects yet.
+                            </p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SERVICES-->
+        <!--Qualifications-->
+
+        <!--Qualifications-->
+        <!--Content Wrapper-->
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/aos.css"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['FRONTEND WEBDEV', 'WEB DESIGNER', 'UI/UX DESIGNER'],
+            typeSpeed: 50,
+
+
+        });
+
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
